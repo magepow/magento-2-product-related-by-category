@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<body>
+    <head>
+        <link src="Magepow_Productslider::css/owl.carousel.min.css"/>
+    </head>
+    <referenceContainer name="content">
+        <block class="Magepow\Productslider\Block\Slider" ifconfig="magepow_productslider/general/enabled" name="product.view.slider" template="product/view/slider.phtml" after="-" />
+    </referenceContainer>
+</body>
